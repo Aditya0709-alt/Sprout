@@ -1,0 +1,20 @@
+{
+    "pins":
+    {
+        "CS": 22,
+        "DHT22": 24,
+        "WATERLEVEL_POWER": 21,
+        "M1": 13,
+        "M2": 6,
+        "M3": 5,
+        "M4": 19,
+        "M5": 26
+    },
+
+    "channels":
+    {
+        "PH": 0,
+        "TDS": 2,
+        "WATERLEVEL": 7
+    }
+}

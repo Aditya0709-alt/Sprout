@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <title>sprout</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/gauge.min.js') }}"></script>
+    <script>
+      data = {{ data | tojson }};
+    </script>
+
+    <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static', filename='styles/style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+  </head>
+
+  <body class="flex-column center-children">
+
+    <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" id="logo">
+    
+    <section class="flex-column center-children">
+      <h1>dashboard</h1>
+      
+      <div class="flex-row center-children" style="gap: 1%">
+
+        <div id="tempGauge" class="gauge-container">
+          <div class="flex-row center-children">
+            <h2>temperature</h2>
+          </div>
+        </div>
+        
+        <div id="humidityGauge" class="gauge-container">
+          <div class="flex-row center-children">
+            <h2>humidity</h2>
+          </div>
+        </div>
+
+        <div id="pHGauge" class="gauge-container">
+          <div class="flex-row center-children">
+            <h2>pH</h2>
+          </div>
+        </div>
+
+        <div id="TDSGauge" class="gauge-container">
+          <div class="flex-row center-children">
+            <h2>TDS</h2>
+          </div>
+        </div>
+
+        <div id="WaterLevelGauge" class="gauge-container">
+          <div class="flex-row center-children">
+            <h2>water level</h2>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    
+    <div class="flex-row center-children" style="margin-top: 5%;">
+      <button class="btn" style="width: 15vw;" onclick="httpPost('/emptytank')">Empty Tank</button>
+    </div>
+
+    <script>
+      var tempGauge = Gauge(document.getElementById("tempGauge"), 
+      {
+        min: -40,
+        max: 125,
+        label: function(value) { return (Math.round(value * 10) / 10) + ' °C'; },
+        color: function(value) { if(value < 18) { return '#00aaff'; } if (value > 38) { return '#e01600' } else { return '#00ff00'; } }
+      });
+      
+      var humidityGauge = Gauge(document.getElementById("humidityGauge"), 
+      {
+        min: 0,
+        max: 100,
+        label: function(value) { return (Math.round(value * 10) / 10) + '%'; },
+        color: function(value) { if(value < 50) { return '#e01600'; } else { return '#00ff00'; } }
+      });
+      
+      var pHGauge = Gauge(document.getElementById("pHGauge"), 
+      {
+        min: 0,
+        max: 14,
+        label: function(value) { return (Math.round(value * 10) / 10); },
+        color: function(value) { if(value < 5.5 || value > 7.5) { return '#e01600'; } else { return '#00ff00'; } }
+      });
+      
+      var TDSGauge = Gauge(document.getElementById("TDSGauge"), 
+      {
+        min: 0,
+        max: 1000,
+        label: function(value) { return Math.round(value); },
+        color: function(value) { if(value < 550 || value > 850) { return '#e01600'; } else { return '#00ff00'; } }
+      });
+      
+      var WaterLevelGauge = Gauge(document.getElementById("WaterLevelGauge"), 
+      {
+        min: 0,
+        max: 100,
+        label: function(value) { return (Math.round(value * 10) / 10) + '%'; },
+        color: function(value) { if(value < 10) { return '#e01600'; } else { return '#00ff00'; } }
+      });
+      
+      TDSGauge.setValueAnimated(data['tds'], 2);
+      WaterLevelGauge.setValueAnimated(data['waterlevel'], 2);
+      tempGauge.setValueAnimated(data['temperature'], 2);
+      pHGauge.setValueAnimated(data['ph'], 2);
+      humidityGauge.setValueAnimated(data['humidity'], 2);
+    </script>
+
+  </body>
+
+</html>
