@@ -34,3 +34,12 @@ To design and build a system that automates the process of monitoring the plant�
 
 
 
+## Literature Survey
+
+The Kratky Method is detailed in [1], which is a research paper written by B. A. Kratky. In the Kratky Method, the plant’s roots are immersed in a nutrient solution.
+We also used the internet to search for similar projects that had been done before. [2] describes a similar project that was built using the ESP8266 board and an ATMega microcontroller. It made use of a pH sensor and a DHT11 temperature sensor, along with an ultrasonic sensor to detect water level. It makes use of a Mobile app to deliver the data to the user.
+[3] describes another project, which was made using 3 Arduino boards and a Raspberry Pi to act as a web server. Two Arduinos act as “Nodes”, which serve to get data from the sensors and send the data to a third Arduino using a radio signal. The third Arduino acts as a gateway, and sends this data to the Raspberry Pi which acts as a web server, running a monitoring and control program. The system delivers data through an Android app. Upon comparison, the plants were shown to grow better indoors while using this system, as compared to the same plant growing outdoors.
+[4] explores a similar system, making use of a NodeMCU ESP8266. This board publishes sensor data to a Raspberry Pi 3 Model B using the MQTT protocol, which is a protocol used for IoT devices to communicate with each other. The Raspberry Pi communicates with a Node Red server, which is used for automation purposes and also serves to deliver the sensor data to the user.
+After learning what hydroponics is, and exploring the Kratky Method of hydroponics, looking at the different approaches that may be used to create a system to manage a hydroponic system, we may proceed onto the next step.
+
+
