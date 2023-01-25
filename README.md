@@ -82,6 +82,9 @@ The project would use Python and Flask for the backend, while HTML, CSS and JS w
 
 ## PCB
 
+The major problem with the breadboard was that it involved using a lot of wires. This made it complex to assemble, and also very difficult to carry. It did not look appealing or presentable. Also, the breadboard connections are somewhat loose, due to which there would be chances of components getting unplugged during operation. This could cause damage to the components.
+
+
 <img width="795" alt="Screenshot 2023-01-25 at 8 09 18 PM" src="https://user-images.githubusercontent.com/77115883/214592241-0f23fe02-fdf5-45c6-8ede-c747a3a476ec.png">
 
 
