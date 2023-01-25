@@ -43,3 +43,20 @@ We also used the internet to search for similar projects that had been done befo
 After learning what hydroponics is, and exploring the Kratky Method of hydroponics, looking at the different approaches that may be used to create a system to manage a hydroponic system, we may proceed onto the next step.
 
 
+## Project Design
+
+After reviewing the different approaches in the literature survey stage, we decided to use a
+Raspberry Pi as the main component of the system. The system would feature 4 sensors, a TDS sensor, a pH sensor, a temperature and humidity sensor, and a water level sensor.
+Apart from this, the Raspberry Pi would also be connected to pumps, which would be able to pump water or nutrients into the solution, or pump the solution out if needed.
+The Raspberry Pi would monitor the sensor data, and upon noticing a deviation from the expected nutrient concentration value or the expected pH value, it would trigger the pumps and correct it.
+The Raspberry Pi should also be able to provide the sensor data onto a webpage, from where the sensor values can be read by the user.
+The project would use Python and Flask for the backend, while HTML, CSS and JS would be appropriate for the frontend.
+
+## Sensors
+
+- Temperature and Humidity Sensor: DHT22
+- pH Sensor: KPE-03 probe + pH-4502C module
+- TDS Sensor: DFRobotics TDS Meter v1.0
+- Water Level Sensor: Funduino Water Level Sensor
+
+
