@@ -64,4 +64,33 @@ The project would use Python and Flask for the backend, while HTML, CSS and JS w
 
 <img width="998" alt="Screenshot 2023-01-25 at 8 05 46 PM" src="https://user-images.githubusercontent.com/77115883/214591432-d714a790-7aba-4dda-afe2-7b3f5a10cfd0.png">
 
+## Flow Diagram
+
+<img width="691" alt="Screenshot 2023-01-25 at 8 06 52 PM" src="https://user-images.githubusercontent.com/77115883/214591714-68937195-3032-4132-9717-f6992e390a23.png">
+
+
+## Languages
+
+- Python
+- HTML/CSS
+- Javascript
+
+## Circuit Diagram
+
+<img width="707" alt="Screenshot 2023-01-25 at 8 08 49 PM" src="https://user-images.githubusercontent.com/77115883/214592129-fb991a7a-b8de-4c8d-a584-a9a1c09200b2.png">
+
+
+## PCB
+
+<img width="795" alt="Screenshot 2023-01-25 at 8 09 18 PM" src="https://user-images.githubusercontent.com/77115883/214592241-0f23fe02-fdf5-45c6-8ede-c747a3a476ec.png">
+
+
+## Features
+
+- Read sensor data and provide it over an API.
+- Read sensor data and provide it on the webpage.
+- If the nutrient content is low, it can actuate the pumps to deliver nutrients to the plant. If the water level is low, it can actuate the pumps to deliver water to the plant.
+- It also has one pump designated to drain the plant tank.
+- There are a total of 5 pumps, of which two are currently not used. However, they may be incorporated into the system to pump solutions to increase or decrease the pH of the solution.
+
 
