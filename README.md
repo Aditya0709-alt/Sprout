@@ -60,3 +60,8 @@ The project would use Python and Flask for the backend, while HTML, CSS and JS w
 - Water Level Sensor: Funduino Water Level Sensor
 
 
+## System Architecture
+
+<img width="998" alt="Screenshot 2023-01-25 at 8 05 46 PM" src="https://user-images.githubusercontent.com/77115883/214591432-d714a790-7aba-4dda-afe2-7b3f5a10cfd0.png">
+
+
