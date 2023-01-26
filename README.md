@@ -1,4 +1,4 @@
-<img margin-left="40%" width="350" alt="Screenshot 2023-01-25 at 7 50 57 PM" src="https://user-images.githubusercontent.com/77115883/214588540-53785370-f6b8-4078-9ff4-59791c1c5ea9.png">
+<img margin-left="60%" width="350" alt="Screenshot 2023-01-25 at 7 50 57 PM" src="https://user-images.githubusercontent.com/77115883/214588540-53785370-f6b8-4078-9ff4-59791c1c5ea9.png">
 
 
 # Table of Contents
