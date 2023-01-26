@@ -99,6 +99,11 @@ The major problem with the breadboard was that it involved using a lot of wires.
 
 ![PHOTO-2022-05-13-12-21-33](https://user-images.githubusercontent.com/77115883/214760079-4f281de0-74fe-4a1e-b36e-cb64a59074f1.jpg)
 
+![IMG_1493](https://user-images.githubusercontent.com/77115883/214760503-8da83df8-ab87-44c6-bb3d-20e648264f7a.jpg)
+
+![IMG_1494](https://user-images.githubusercontent.com/77115883/214760545-974d4cff-8046-49b7-90f1-a9cde79617ad.jpg)
+
+
 
 
 ## References
