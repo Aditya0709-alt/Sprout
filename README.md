@@ -104,6 +104,20 @@ The major problem with the breadboard was that it involved using a lot of wires.
 ![IMG_1494](https://user-images.githubusercontent.com/77115883/214760545-974d4cff-8046-49b7-90f1-a9cde79617ad.jpg)
 
 
+## Conclusion
+
+The final product obtained was a product that was capable of maintaining a hydroponic garden on its own for a very long time. As long as the reservoirs are full and the system is connected to power, it will continue to function. Overall, the results were satisfactory and aesthetically pleasing. However, a much longer testing period is required to gain insight into the efficiency and effectiveness of the system.
+
+
+## Future Scope
+
+- There is still room for improvement in this project. An actual, 3D printed enclosure for both
+the circuits and a custom 3D printed planter to hold the sensors in place would benefit the system a lot.
+- The system may be improved by adding data storage capabilities to it. So, the sensors would be able to record data, and the user can gain access to the raw data or plot graphs using it.
+- The accuracy of the sensors may be improved by further calibration.
+- Lastly, it would be very interesting to incorporate machine learning or artificial intelligence into this project. A machine learning algorithm could monitor the plants behaviours and make predictions about it. A camera could be connected to the plant, and the machine learning algorithm would be able to detect plant diseases or other deficiencies and notify the user before they have a chance to hurt the growth of the plant.
+
+
 
 
 ## References
