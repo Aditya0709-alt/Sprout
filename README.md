@@ -1,6 +1,6 @@
 <img padding="50%" width="350" alt="Screenshot 2023-01-25 at 7 50 57 PM" src="https://user-images.githubusercontent.com/77115883/214588540-53785370-f6b8-4078-9ff4-59791c1c5ea9.png">
 
-              An automated plant watering system for hydroponic plants for people who can't make time to water their plants!
+_An automated plant watering system for hydroponic plants for people who can't make time to water their plants!_
 
 
 
