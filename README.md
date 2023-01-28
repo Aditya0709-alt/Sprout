@@ -127,8 +127,11 @@ the circuits and a custom 3D printed planter to hold the sensors in place would 
 ## References
 
 [1] Kratky, B. A. (2009). Three non-circulating hydroponic methods for growing lettuce. Acta Horticulturae, (843), 65–72. https://doi.org/10.17660/actahortic.2009.843.6
+
 [2] Dr. Asawari Dudwadkar. (2020). Automated hydroponics with remote monitoring and control using IOT. International Journal of Engineering Research And, V9(06). https://doi.org/10.17577/ijertv9is060677
+
 [3] Palande, V., Zaheer, A., & George, K. (2018). Fully Automated Hydroponic System for Indoor Plant Growth. Procedia Computer Science, 129, 482–488. https://doi.org/10.1016/j.procs.2018.03.028
+
 [4] Lakshmanan, R., Djama, M., Perumal, S., & Abdulla, R. (2020). Automated smart hydroponics system using the internet of things. International Journal of Electrical and Computer Engineering (IJECE), 10(6), 6389. https://doi.org/10.11591/ijece.v10i6.pp6389-6398
 Department of Computer Engineering (MP Jan-Apr 2022) Page 21
 
